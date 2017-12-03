@@ -16,7 +16,7 @@
   
 ## Hardware
   This systems assumes the following pin/cable mapping:
-  ```
+  
   * CHAN 1: tom one       CHAN 8:  cymbal one
   * CHAN 2: tom two       CHAN 9:  cymbal two
   * CHAN 3: tom three     CHAN 10: cymbal three
@@ -24,13 +24,13 @@
   * CHAN 5: kick_left     CHAN 12: cymbal five
   * CHAN 6: kick_right    CHAN 13: aux one
   * CHAN 7: snare         CHAN 14: aux two
-  ```
+  
 
   This program does not write to each drum in that order, however.
   Teensy 3.2 + FastLED 16-channel parallel output will write
   in the following order:
 
-```
+
   * CH:     DRUM:
   * ch. 1   (tom one)       TRUE  0   21
   * ch. 11  (cymbal 4)      TRUE  1   190
@@ -41,14 +41,14 @@
   * ch. 8   (cymbal 1)      TRUE  6   126
   * ch. 2   (tom two)       TRUE  7   42
   * ch. 10  (cymbal three)  TRUE  8   169
-  *** so here we are missing 9 and 10, respectively strips 15 and 16***
-  *** account for by placing dummy triggers at strip #9 and #10***
+  so here we are missing 9 and 10, respectively strips 15 and 16
+  account for by placing dummy triggers at strip #9 and #10
   * ch. 6   (kick right)    true  11  0
   * ch. 7   (snare)         true  12  105
   * ch. 12  (cymbal 5)      true  13  211
   * ch. 14  (aux 2)         true  14  253
   * ch. 13  (aux 1)         true  15  232
-```
+
 
 ## Equipment
   * 144led/meter WS2812b addressable LED strips: https://www.adafruit.com/products/1506
