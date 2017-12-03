@@ -10,12 +10,8 @@ Hardware and firmware designed by <a href='www.drew-andre.com'>Drew André</a>.
 ## Description
 The HyperSpace LED Drum Kit system reads piezo drum sensor events and triggers various LED effects. The system is waterproof, extensively stress-tested for road conditions, and configurable on-the-fly. The system can save noise thresholds for any number of drummers/playing styles, and features a high-contrast OLED screen for configuration. The effects uploaded here are highly specific to client specifications, but can be configured to taste.
 
-[![HyperSpace LED Drum Kit](https://img.youtube.com/vi/aQiT6eR48F4/0.jpg)](https://www.youtube.com/watch?v=aQiT6eR48F4)          
-##
-  This is a revised version of the project with the LEDS now running in parallel
-  for a framerate increase of ~125% (15fps to ~64fps). This leaves more time
-  to read the drum triggers, thus giving a more reactive feel to the kit.
-  
+[![HyperSpace LED Drum Kit](https://img.youtube.com/vi/aQiT6eR48F4/0.jpg)](https://www.youtube.com/watch?v=aQiT6eR48F4)       
+
 ## Hardware
   This systems assumes the following pin/cable mapping:
   ```
@@ -55,23 +51,11 @@ The HyperSpace LED Drum Kit system reads piezo drum sensor events and triggers v
 ## Equipment
   * 144led/meter WS2812b addressable LED strips: https://www.adafruit.com/products/1506
   * 8x8 WS2812b panels: https://www.amazon.com/gp/product/B01MCUOD8N/ref=oh_aui_detailpage_o05_s01?ie=UTF8&psc=1
-  * MEAS Vibration sensors  for cymbals and DDrum Acoustic Pro triggers/piezos for drums heads
   * Daniel Garcia and Mark Kriegsman's FastLED library: http://fastled.io/
   * Teensy 3.2: https://www.pjrc.com/store/teensy32.html
-  * Custom designed PCB
-  * 60amp power supply: https://www.amazon.com/gp/product/B014018EWA/ref=oh_aui_detailpage_o06_s00?ie=UTF8&psc=1
+  * Custom designed PCB, Piezo sensors, and 5-pin cable
+  * 60A power supply: https://www.amazon.com/gp/product/B014018EWA/ref=oh_aui_detailpage_o06_s00?ie=UTF8&psc=1
   * 128x32 OLED screen: https://www.adafruit.com/product/2675
 
-  Voltage dividers for piezo sensors use a 10pf cap and varying resistor values to remove vibration noise
-```
-  Suggested resistor values for setting piezo noise floor:
-  - TOM 1:
-  - TOM 2: 6.2M Ohms 5%
-  - TOM 3: 10M Ohms 5%
-  - TOM 4: 13M Ohms 5% 
-  - KICK L: 13M Ohms 5%
-  - KICK R: 13M Ohms 5%
-  - SNARE: 13M Ohm 5%
-  ```
-  ## Contact for custom builds
+## Contact for custom builds
   I can be reached at <a href='mailto:drewjamesandre@gmail.com'>drewjamesandre@gmail.com</a>. 
