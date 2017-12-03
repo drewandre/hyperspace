@@ -1,7 +1,7 @@
 # HyperSpace
 ###### Featured on band Boston's 2017 HyperSpace Tour: 14-channel LED controller for use with piezo sensors, WS2812b LEDS, Teensy 3.2
 
-***This project uses hardware which cannot be made publically available due to the nature of client contract. The firmware, though, uses the <a href='https://github.com/FastLED/FastLED'>FastLED</a> library running on a <a href='https://www.pjrc.com/store/teensy32.html'>Teensy 3.2</a>. <a href='http://www.ddrum.com/query?upc=834035000328'>Acoustic Pro DDrum triggers</a> were used to send trigger events to the Teensy, which ran through full bridge rectifiers to covert the AC signals to a safe, readable DC range for the Teensy.***
+*This project uses hardware which cannot be made publically available due to the nature of client contract. The firmware, though, uses the <a href='https://github.com/FastLED/FastLED'>FastLED</a> library running on a <a href='https://www.pjrc.com/store/teensy32.html'>Teensy 3.2</a>. <a href='http://www.ddrum.com/query?upc=834035000328'>Acoustic Pro DDrum triggers</a> were used to send trigger events to the Teensy, which ran through full bridge rectifiers to covert the AC signals to a safe, readable DC range for the Teensy.*
 
 [![HyperSpace LED Drum Kit](https://img.youtube.com/vi/aQiT6eR48F4/0.jpg)](https://www.youtube.com/watch?v=aQiT6eR48F4)
 
