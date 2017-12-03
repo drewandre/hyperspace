@@ -14,6 +14,15 @@ The HyperSpace LED Drum Kit system reads piezo drum sensor events and triggers v
 
 [![HyperSpace LED Drum Kit](https://img.youtube.com/vi/aQiT6eR48F4/0.jpg)](https://www.youtube.com/watch?v=aQiT6eR48F4)       
 
+## Equipment
+* 144led/meter WS2812b addressable LED strips: https://www.adafruit.com/products/1506
+* 8x8 WS2812b panels: https://www.amazon.com/gp/product/B01MCUOD8N/ref=oh_aui_detailpage_o05_s01?ie=UTF8&psc=1
+* Daniel Garcia and Mark Kriegsman's FastLED library: http://fastled.io/
+* Teensy 3.2: https://www.pjrc.com/store/teensy32.html
+* Custom designed PCB, Piezo sensors, and 5-pin cable
+* 60A power supply: https://www.amazon.com/gp/product/B014018EWA/ref=oh_aui_detailpage_o06_s00?ie=UTF8&psc=1
+* 128x32 OLED screen: https://www.adafruit.com/product/2675
+
 ## Hardware
 This systems assumes the following pin/cable mapping:
   ```
@@ -47,15 +56,6 @@ in the following order:
 - ch. 14  (aux 2)      
 - ch. 13  (aux 1)      
 ```
-
-## Equipment
-* 144led/meter WS2812b addressable LED strips: https://www.adafruit.com/products/1506
-* 8x8 WS2812b panels: https://www.amazon.com/gp/product/B01MCUOD8N/ref=oh_aui_detailpage_o05_s01?ie=UTF8&psc=1
-* Daniel Garcia and Mark Kriegsman's FastLED library: http://fastled.io/
-* Teensy 3.2: https://www.pjrc.com/store/teensy32.html
-* Custom designed PCB, Piezo sensors, and 5-pin cable
-* 60A power supply: https://www.amazon.com/gp/product/B014018EWA/ref=oh_aui_detailpage_o06_s00?ie=UTF8&psc=1
-* 128x32 OLED screen: https://www.adafruit.com/product/2675
 
 ## Contact for custom builds
 I can be reached at <a href='mailto:drewjamesandre@gmail.com'>drewjamesandre@gmail.com</a>. 
