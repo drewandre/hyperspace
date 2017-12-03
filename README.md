@@ -1,6 +1,8 @@
 # HyperSpace
 ###### Featured on band Boston's 2017 HyperSpace Tour: 14-channel LED controller for use with piezo sensors, WS2812b LEDS, Teensy 3.2
 
+[![HyperSpace LED Drum Kit](https://img.youtube.com/vi/aQiT6eR48F4/0.jpg)](https://www.youtube.com/watch?v=aQiT6eR48F4)
+
   *"Music legends BOSTON continue their Hyper Space Tour this summer
   with the iconic JOAN JETT & THE BLACKHEARTS, for an additional 21 cities,
   presented by Live Nation. Performances with Joan Jett will begin on Wednesday,
