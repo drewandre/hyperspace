@@ -1,3 +1,4 @@
+![band boston logo](http://www.trademarkandcopyrightlawblog.com/wp-content/uploads/sites/9/2016/11/boston-1.png)
 # HyperSpace LED Drum Kit
 ###### Featured on band Boston's 2017 HyperSpace Tour: 14-channel LED controller for use with piezo sensors, WS2812b LEDS, Teensy 3.2. Version 1.3 - Boston, MA - June 2017.
 *This project uses hardware which cannot be made publically available due to the nature of client contract. The firmware, though, uses the <a href='https://github.com/FastLED/FastLED'>FastLED</a> library running on a <a href='https://www.pjrc.com/store/teensy32.html'>Teensy 3.2</a>. Regular ol' pizeo sensors can be used to send trigger events to the Teensy, which should through full bridge rectifiers to covert the AC signals to a safe, readable DC range for the Microcontroller.*
