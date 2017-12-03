@@ -1,25 +1,22 @@
 # HyperSpace
 ###### Featured on band Boston's 2017 HyperSpace Tour: 14-channel LED controller for use with piezo sensors, WS2812b LEDS, Teensy 3.2
+
+  *"Music legends BOSTON continue their Hyper Space Tour this summer
+  with the iconic JOAN JETT & THE BLACKHEARTS, for an additional 21 cities,
+  presented by Live Nation. Performances with Joan Jett will begin on Wednesday,
+  June 14 in Mountain View, CA at Shoreline Amphitheatre, and continue eastward
+  across North America. More information can be found at livenation.com. Itinerary
+  for the Live Nation portion of BOSTON’s Hyper Space Tour with Joan Jett below."*
           
-  Version 1.3 - Boston, MA - June 2017
+  ***Version 1.3 - Boston, MA - June 2017***
   
   *This is a revised version of the project with the LEDS now running in parallel
   for a framerate increase of ~125% (15fps to ~64fps). This leaves more time
   to read the drum triggers, thus giving a more reactive feel to the kit.*
   
-  ```
-  Boston HyperSpace Tour information
-
-  "Music legends BOSTON continue their Hyper Space Tour this summer
-  with the iconic JOAN JETT & THE BLACKHEARTS, for an additional 21 cities,
-  presented by Live Nation. Performances with Joan Jett will begin on Wednesday,
-  June 14 in Mountain View, CA at Shoreline Amphitheatre, and continue eastward
-  across North America. More information can be found at livenation.com. Itinerary
-  for the Live Nation portion of BOSTON’s Hyper Space Tour with Joan Jett below."
-  ```
-  
 ## Hardware
   This systems assumes the following pin/cable mapping:
+  ```
   CHAN 1: tom one       CHAN 8:  cymbal one
   CHAN 2: tom two       CHAN 9:  cymbal two
   CHAN 3: tom three     CHAN 10: cymbal three
@@ -27,11 +24,13 @@
   CHAN 5: kick_left     CHAN 12: cymbal five
   CHAN 6: kick_right    CHAN 13: aux one
   CHAN 7: snare         CHAN 14: aux two
+  ```
 
   This program does not write to each drum in that order, however.
   Teensy 3.2 + FastLED 16-channel parallel output will write
   in the following order:
 
+```
   CH:     DRUM:
   ch. 1   (tom one)       TRUE  0   21
   ch. 11  (cymbal 4)      TRUE  1   190
@@ -49,6 +48,7 @@
   ch. 12  (cymbal 5)      true  13  211
   ch. 14  (aux 2)         true  14  253
   ch. 13  (aux 1)         true  15  232
+```
 
 ## Equipment
   Project files: www.github.com/drewandre/boston
