@@ -39,8 +39,6 @@ in the following order:
 - ch. 8   (cymbal 1)   
 - ch. 2   (tom two)   
 - ch. 10  (cymbal three
-so here we are missing 9 and 10, respectively strips 15 and 16
-account for by placing dummy triggers at strip #9 and #10
 - ch. 6   (kick right
 - ch. 7   (snare)      
 - ch. 12  (cymbal 5)   
