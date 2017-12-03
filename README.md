@@ -5,7 +5,7 @@
 
 Hardware and firmware designed by <a href='www.drew-andre.com'>Drew André</a>.
 
-***Tour description:*** *Music legends BOSTON continue their Hyper Space Tour this summer with the iconic JOAN JETT & THE BLACKHEARTS, for an additional 21 cities, presented by Live Nation. Performances with Joan Jett will begin on Wednesday, June 14 in Mountain View, CA at Shoreline Amphitheatre, and continue eastward across North America. More information can be found at livenation.com. Itinerary for the Live Nation portion of BOSTON’s Hyper Space Tour with Joan Jett below.*
+*Tour description:* Music legends BOSTON continue their Hyper Space Tour this summer with the iconic JOAN JETT & THE BLACKHEARTS, for an additional 21 cities, presented by Live Nation. Performances with Joan Jett will begin on Wednesday, June 14 in Mountain View, CA at Shoreline Amphitheatre, and continue eastward across North America. More information can be found at livenation.com. Itinerary for the Live Nation portion of BOSTON’s Hyper Space Tour with Joan Jett below.
 
 ## Description
 The HyperSpace LED Drum Kit system reads piezo drum sensor events and triggers various LED effects. The system is waterproof, extensively stress-tested for road conditions, and configurable on-the-fly. The system can save noise thresholds for any number of drummers/playing styles, and features a high-contrast OLED screen for configuration. The effects uploaded here are highly specific to client specifications, but can be configured to taste.
