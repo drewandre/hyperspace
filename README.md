@@ -1,25 +1,27 @@
-# Boston
-14-channel LED controller for use with piezo sensors, WS2812b LEDS, &amp; Teensy 3.2
+# HyperSpace
+###### 14-channel LED controller for use with piezo sensors, WS2812b LEDS, &amp; Teensy 3.2
 
-  BOSTON 2017 HYPER SPACE TOUR: 14-channel LED controller for use with
+  **BOSTON 2017 HYPER SPACE TOUR:** 14-channel LED controller for use with
                                 piezo sensors, WS2812b LEDS, & Teensy 3.2
                                 
   Version 1.3 - Boston, MA - June 2017
   
-  This is a revised version of the project with the LEDS now running in parallel
+  *This is a revised version of the project with the LEDS now running in parallel
   for a framerate increase of ~125% (15fps to ~64fps). This leaves more time
-  to read the drum triggers, thus giving a more reactive feel to the kit.
+  to read the drum triggers, thus giving a more reactive feel to the kit.*
   
-  ```Boston HyperSpace Tour information
+  ```
+  Boston HyperSpace Tour information
 
   "Music legends BOSTON continue their Hyper Space Tour this summer
   with the iconic JOAN JETT & THE BLACKHEARTS, for an additional 21 cities,
   presented by Live Nation. Performances with Joan Jett will begin on Wednesday,
   June 14 in Mountain View, CA at Shoreline Amphitheatre, and continue eastward
   across North America. More information can be found at livenation.com. Itinerary
-  for the Live Nation portion of BOSTON’s Hyper Space Tour with Joan Jett below."```
+  for the Live Nation portion of BOSTON’s Hyper Space Tour with Joan Jett below."
+  ```
   
-# Hardware
+## Hardware
   This systems assumes the following pin/cable mapping:
   CHAN 1: tom one       CHAN 8:  cymbal one
   CHAN 2: tom two       CHAN 9:  cymbal two
@@ -51,7 +53,7 @@
   ch. 14  (aux 2)         true  14  253
   ch. 13  (aux 1)         true  15  232
 
-# Equipment
+## Equipment
   Project files: www.github.com/drewandre/boston
   Project equipment:
    144led/meter WS2812b addressable LED strips: https://www.adafruit.com/products/1506
@@ -64,8 +66,8 @@
    128x32 OLED screen: https://www.adafruit.com/product/2675
 
   Voltage dividers for piezo sensors use a 10pf cap and varying resistor values to remove vibration noise
-
-  `RESISTOR VALUES 4-7
+```
+  RESISTOR VALUES 4-7
   -----------------
   TOM 1:
   TOM 2: 6.2M Ohms 5%
@@ -73,4 +75,5 @@
   TOM 4: 13M Ohms 5% 
   KICK L: 13M Ohms 5%
   KICK R: 13M Ohms 5%
-  SNARE: 13M Ohm 5%`
+  SNARE: 13M Ohm 5%
+  ```
