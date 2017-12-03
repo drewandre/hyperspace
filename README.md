@@ -10,20 +10,20 @@
           
   ***Version 1.3 - Boston, MA - June 2017***
   
-  *This is a revised version of the project with the LEDS now running in parallel
+  This is a revised version of the project with the LEDS now running in parallel
   for a framerate increase of ~125% (15fps to ~64fps). This leaves more time
-  to read the drum triggers, thus giving a more reactive feel to the kit.*
+  to read the drum triggers, thus giving a more reactive feel to the kit.
   
 ## Hardware
   This systems assumes the following pin/cable mapping:
   ```
-  CHAN 1: tom one       CHAN 8:  cymbal one
-  CHAN 2: tom two       CHAN 9:  cymbal two
-  CHAN 3: tom three     CHAN 10: cymbal three
-  CHAN 4: tom four      CHAN 11: cymbal four
-  CHAN 5: kick_left     CHAN 12: cymbal five
-  CHAN 6: kick_right    CHAN 13: aux one
-  CHAN 7: snare         CHAN 14: aux two
+  * CHAN 1: tom one       CHAN 8:  cymbal one
+  * CHAN 2: tom two       CHAN 9:  cymbal two
+  * CHAN 3: tom three     CHAN 10: cymbal three
+  * CHAN 4: tom four      CHAN 11: cymbal four
+  * CHAN 5: kick_left     CHAN 12: cymbal five
+  * CHAN 6: kick_right    CHAN 13: aux one
+  * CHAN 7: snare         CHAN 14: aux two
   ```
 
   This program does not write to each drum in that order, however.
@@ -31,46 +31,43 @@
   in the following order:
 
 ```
-  CH:     DRUM:
-  ch. 1   (tom one)       TRUE  0   21
-  ch. 11  (cymbal 4)      TRUE  1   190
-  ch. 4   (tom four)      TRUE  2   84
-  ch. 5   (kick left)     TRUE  3   0
-  ch. 3   (tom 3)         TRUE  4   63
-  ch. 9   (cymbal 2)      TRUE  5   147
-  ch. 8   (cymbal 1)      TRUE  6   126
-  ch. 2   (tom two)       TRUE  7   42
-  ch. 10  (cymbal three)  TRUE  8   169
-  // so here we are missing 9 and 10, respectively strips 15 and 16
-  // account for by placing dummy triggers at strip #9 and #10
-  ch. 6   (kick right)    true  11  0
-  ch. 7   (snare)         true  12  105
-  ch. 12  (cymbal 5)      true  13  211
-  ch. 14  (aux 2)         true  14  253
-  ch. 13  (aux 1)         true  15  232
+  * CH:     DRUM:
+  * ch. 1   (tom one)       TRUE  0   21
+  * ch. 11  (cymbal 4)      TRUE  1   190
+  * ch. 4   (tom four)      TRUE  2   84
+  * ch. 5   (kick left)     TRUE  3   0
+  * ch. 3   (tom 3)         TRUE  4   63
+  * ch. 9   (cymbal 2)      TRUE  5   147
+  * ch. 8   (cymbal 1)      TRUE  6   126
+  * ch. 2   (tom two)       TRUE  7   42
+  * ch. 10  (cymbal three)  TRUE  8   169
+  * ***// so here we are missing 9 and 10, respectively strips 15 and 16***
+  * ***// account for by placing dummy triggers at strip #9 and #10***
+  * ch. 6   (kick right)    true  11  0
+  * ch. 7   (snare)         true  12  105
+  * ch. 12  (cymbal 5)      true  13  211
+  * ch. 14  (aux 2)         true  14  253
+  * ch. 13  (aux 1)         true  15  232
 ```
 
 ## Equipment
-  Project files: www.github.com/drewandre/boston
-  Project equipment:
-   144led/meter WS2812b addressable LED strips: https://www.adafruit.com/products/1506
-   8x8 WS2812b panels: https://www.amazon.com/gp/product/B01MCUOD8N/ref=oh_aui_detailpage_o05_s01?ie=UTF8&psc=1
-   MEAS Vibration sensors  for cymbals and DDrum Acoustic Pro triggers/piezos for drums heads
-   Daniel Garcia and Mark Kriegsman's FastLED library: http://fastled.io/
-   Teensy 3.2: https://www.pjrc.com/store/teensy32.html
-   Custom designed PCB
-   60amp power supply: https://www.amazon.com/gp/product/B014018EWA/ref=oh_aui_detailpage_o06_s00?ie=UTF8&psc=1
-   128x32 OLED screen: https://www.adafruit.com/product/2675
+  * 144led/meter WS2812b addressable LED strips: https://www.adafruit.com/products/1506
+  * 8x8 WS2812b panels: https://www.amazon.com/gp/product/B01MCUOD8N/ref=oh_aui_detailpage_o05_s01?ie=UTF8&psc=1
+  * MEAS Vibration sensors  for cymbals and DDrum Acoustic Pro triggers/piezos for drums heads
+  * Daniel Garcia and Mark Kriegsman's FastLED library: http://fastled.io/
+  * Teensy 3.2: https://www.pjrc.com/store/teensy32.html
+  * Custom designed PCB
+  * 60amp power supply: https://www.amazon.com/gp/product/B014018EWA/ref=oh_aui_detailpage_o06_s00?ie=UTF8&psc=1
+  * 128x32 OLED screen: https://www.adafruit.com/product/2675
 
   Voltage dividers for piezo sensors use a 10pf cap and varying resistor values to remove vibration noise
 ```
-  RESISTOR VALUES 4-7
-  -----------------
-  TOM 1:
-  TOM 2: 6.2M Ohms 5%
-  TOM 3: 10M Ohms 5%
-  TOM 4: 13M Ohms 5% 
-  KICK L: 13M Ohms 5%
-  KICK R: 13M Ohms 5%
-  SNARE: 13M Ohm 5%
+  ***RESISTOR VALUES 4-7***
+  * TOM 1:
+  * TOM 2: 6.2M Ohms 5%
+  * TOM 3: 10M Ohms 5%
+  * TOM 4: 13M Ohms 5% 
+  * KICK L: 13M Ohms 5%
+  * KICK R: 13M Ohms 5%
+  * SNARE: 13M Ohm 5%
   ```
