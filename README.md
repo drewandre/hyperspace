@@ -10,14 +10,14 @@
   for a framerate increase of ~125% (15fps to ~64fps). This leaves more time
   to read the drum triggers, thus giving a more reactive feel to the kit.
   
-  `Boston HyperSpace Tour information
+  ```Boston HyperSpace Tour information
 
   "Music legends BOSTON continue their Hyper Space Tour this summer
   with the iconic JOAN JETT & THE BLACKHEARTS, for an additional 21 cities,
   presented by Live Nation. Performances with Joan Jett will begin on Wednesday,
   June 14 in Mountain View, CA at Shoreline Amphitheatre, and continue eastward
   across North America. More information can be found at livenation.com. Itinerary
-  for the Live Nation portion of BOSTON’s Hyper Space Tour with Joan Jett below."`
+  for the Live Nation portion of BOSTON’s Hyper Space Tour with Joan Jett below."```
   
 # Hardware
   This systems assumes the following pin/cable mapping:
