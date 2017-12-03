@@ -30,22 +30,22 @@ in the following order:
 
 ```
 - CH:     DRUM:
-- ch. 1   (tom one)       TRUE  0   21
-- ch. 11  (cymbal 4)      TRUE  1   190
-- ch. 4   (tom four)      TRUE  2   84
-- ch. 5   (kick left)     TRUE  3   0
-- ch. 3   (tom 3)         TRUE  4   63
-- ch. 9   (cymbal 2)      TRUE  5   147
-- ch. 8   (cymbal 1)      TRUE  6   126
-- ch. 2   (tom two)       TRUE  7   42
-- ch. 10  (cymbal three)  TRUE  8   169
+- ch. 1   (tom one)   
+- ch. 11  (cymbal 4)   
+- ch. 4   (tom four)  
+- ch. 5   (kick left)
+- ch. 3   (tom 3)     
+- ch. 9   (cymbal 2)   
+- ch. 8   (cymbal 1)   
+- ch. 2   (tom two)   
+- ch. 10  (cymbal three
 so here we are missing 9 and 10, respectively strips 15 and 16
 account for by placing dummy triggers at strip #9 and #10
-- ch. 6   (kick right)    true  11  0
-- ch. 7   (snare)         true  12  105
-- ch. 12  (cymbal 5)      true  13  211
-- ch. 14  (aux 2)         true  14  253
-- ch. 13  (aux 1)         true  15  232
+- ch. 6   (kick right
+- ch. 7   (snare)      
+- ch. 12  (cymbal 5)   
+- ch. 14  (aux 2)      
+- ch. 13  (aux 1)      
 ```
 
 ## Equipment
