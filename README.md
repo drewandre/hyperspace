@@ -1,9 +1,6 @@
 # HyperSpace
-###### 14-channel LED controller for use with piezo sensors, WS2812b LEDS, &amp; Teensy 3.2
-
-  **BOSTON 2017 HYPER SPACE TOUR:** 14-channel LED controller for use with
-                                piezo sensors, WS2812b LEDS, & Teensy 3.2
-                                
+###### Featured on band Boston's 2017 HyperSpace Tour: 14-channel LED controller for use with piezo sensors, WS2812b LEDS, Teensy 3.2
+          
   Version 1.3 - Boston, MA - June 2017
   
   *This is a revised version of the project with the LEDS now running in parallel
