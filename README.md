@@ -16,7 +16,7 @@
   
 ## Hardware
   This systems assumes the following pin/cable mapping:
-  
+  ```
   * CHAN 1: tom one       CHAN 8:  cymbal one
   * CHAN 2: tom two       CHAN 9:  cymbal two
   * CHAN 3: tom three     CHAN 10: cymbal three
@@ -24,7 +24,7 @@
   * CHAN 5: kick_left     CHAN 12: cymbal five
   * CHAN 6: kick_right    CHAN 13: aux one
   * CHAN 7: snare         CHAN 14: aux two
-  
+  ```
 
   This program does not write to each drum in that order, however.
   Teensy 3.2 + FastLED 16-channel parallel output will write
