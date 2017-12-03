@@ -5,14 +5,13 @@
 
 Hardware and firmware designed by <a href='www.drew-andre.com'>Drew André</a>.
 
+***Tour description:*** *Music legends BOSTON continue their Hyper Space Tour this summer with the iconic JOAN JETT & THE BLACKHEARTS, for an additional 21 cities, presented by Live Nation. Performances with Joan Jett will begin on Wednesday, June 14 in Mountain View, CA at Shoreline Amphitheatre, and continue eastward across North America. More information can be found at livenation.com. Itinerary for the Live Nation portion of BOSTON’s Hyper Space Tour with Joan Jett below.*
+
 ## Description
 The HyperSpace LED Drum Kit system reads piezo drum sensor events and triggers various LED effects. The system is waterproof, extensively stress-tested for road conditions, and configurable on-the-fly. The system can save noise thresholds for any number of drummers/playing styles, and features a high-contrast OLED screen for configuration. The effects uploaded here are highly specific to client specifications, but can be configured to taste.
 
-[![HyperSpace LED Drum Kit](https://img.youtube.com/vi/aQiT6eR48F4/0.jpg)](https://www.youtube.com/watch?v=aQiT6eR48F4)
-
-*Music legends BOSTON continue their Hyper Space Tour this summer with the iconic JOAN JETT & THE BLACKHEARTS, for an additional 21 cities, presented by Live Nation. Performances with Joan Jett will begin on Wednesday, June 14 in Mountain View, CA at Shoreline Amphitheatre, and continue eastward across North America. More information can be found at livenation.com. Itinerary for the Live Nation portion of BOSTON’s Hyper Space Tour with Joan Jett below.*
-          
-  
+[![HyperSpace LED Drum Kit](https://img.youtube.com/vi/aQiT6eR48F4/0.jpg)](https://www.youtube.com/watch?v=aQiT6eR48F4)          
+##
   This is a revised version of the project with the LEDS now running in parallel
   for a framerate increase of ~125% (15fps to ~64fps). This leaves more time
   to read the drum triggers, thus giving a more reactive feel to the kit.
@@ -74,3 +73,5 @@ The HyperSpace LED Drum Kit system reads piezo drum sensor events and triggers v
   - KICK R: 13M Ohms 5%
   - SNARE: 13M Ohm 5%
   ```
+  ## Contact for custom builds
+  I can be reached at <a href='mailto:drewjamesandre@gmail.com'>drewjamesandre@gmail.com</a>. 
