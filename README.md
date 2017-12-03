@@ -41,8 +41,8 @@
   * ch. 8   (cymbal 1)      TRUE  6   126
   * ch. 2   (tom two)       TRUE  7   42
   * ch. 10  (cymbal three)  TRUE  8   169
-  * ***// so here we are missing 9 and 10, respectively strips 15 and 16***
-  * ***// account for by placing dummy triggers at strip #9 and #10***
+  *** so here we are missing 9 and 10, respectively strips 15 and 16***
+  *** account for by placing dummy triggers at strip #9 and #10***
   * ch. 6   (kick right)    true  11  0
   * ch. 7   (snare)         true  12  105
   * ch. 12  (cymbal 5)      true  13  211
@@ -62,7 +62,7 @@
 
   Voltage dividers for piezo sensors use a 10pf cap and varying resistor values to remove vibration noise
 ```
-  ***RESISTOR VALUES 4-7***
+  RESISTOR VALUES 4-7
   * TOM 1:
   * TOM 2: 6.2M Ohms 5%
   * TOM 3: 10M Ohms 5%
