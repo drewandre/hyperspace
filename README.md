@@ -1,18 +1,13 @@
 # HyperSpace
+## Version 1.3 - Boston, MA - June 2017
 ###### Featured on band Boston's 2017 HyperSpace Tour: 14-channel LED controller for use with piezo sensors, WS2812b LEDS, Teensy 3.2
 
-*This project uses hardware which cannot be made publically available due to the nature of client contract. The firmware, though, uses the <a href='https://github.com/FastLED/FastLED'>FastLED</a> library running on a <a href='https://www.pjrc.com/store/teensy32.html'>Teensy 3.2</a>. <a href='http://www.ddrum.com/query?upc=834035000328'>Acoustic Pro DDrum triggers</a> were used to send trigger events to the Teensy, which ran through full bridge rectifiers to covert the AC signals to a safe, readable DC range for the Teensy.*
+*This project uses hardware which cannot be made publically available due to the nature of client contract. The firmware, though, uses the <a href='https://github.com/FastLED/FastLED'>FastLED</a> library running on a <a href='https://www.pjrc.com/store/teensy32.html'>Teensy 3.2</a>. Regular ol' pizeo sensors can be used to send trigger events to the Teensy, which should through full bridge rectifiers to covert the AC signals to a safe, readable DC range for the Microcontroller.*
 
 [![HyperSpace LED Drum Kit](https://img.youtube.com/vi/aQiT6eR48F4/0.jpg)](https://www.youtube.com/watch?v=aQiT6eR48F4)
 
-  *Music legends BOSTON continue their Hyper Space Tour this summer
-  with the iconic JOAN JETT & THE BLACKHEARTS, for an additional 21 cities,
-  presented by Live Nation. Performances with Joan Jett will begin on Wednesday,
-  June 14 in Mountain View, CA at Shoreline Amphitheatre, and continue eastward
-  across North America. More information can be found at livenation.com. Itinerary
-  for the Live Nation portion of BOSTON’s Hyper Space Tour with Joan Jett below.*
+*Music legends BOSTON continue their Hyper Space Tour this summer with the iconic JOAN JETT & THE BLACKHEARTS, for an additional 21 cities, presented by Live Nation. Performances with Joan Jett will begin on Wednesday, June 14 in Mountain View, CA at Shoreline Amphitheatre, and continue eastward across North America. More information can be found at livenation.com. Itinerary for the Live Nation portion of BOSTON’s Hyper Space Tour with Joan Jett below.*
           
-  ***Version 1.3 - Boston, MA - June 2017***
   
   This is a revised version of the project with the LEDS now running in parallel
   for a framerate increase of ~125% (15fps to ~64fps). This leaves more time
