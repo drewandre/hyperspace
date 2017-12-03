@@ -10,7 +10,7 @@ Hardware and firmware designed by <a href='www.drew-andre.com'>Drew André</a>.
 ## Description
 The HyperSpace LED Drum Kit system reads piezo drum sensor events and triggers various LED effects. The system is waterproof, extensively stress-tested for road conditions, and configurable on-the-fly. The system can save noise thresholds for any number of drummers/playing styles, and features a high-contrast OLED screen for configuration. The effects uploaded here are highly specific to client specifications, but can be configured to taste.
 
-***2,176 leds used in this project running at 172fps!***
+***2,176 leds used in this project running at 172fps***
 
 [![HyperSpace LED Drum Kit](https://img.youtube.com/vi/aQiT6eR48F4/0.jpg)](https://www.youtube.com/watch?v=aQiT6eR48F4)       
 
