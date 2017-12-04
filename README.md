@@ -3,7 +3,7 @@
 # [HyperSpace LED Drum Kit](https://www.youtube.com/watch?v=aQiT6eR48F4)
 
 
-###### Featured in band Boston's 2017 HyperSpace Tour: 14-channel LED controller for use with piezo sensors, WS2812b LEDS, Teensy 3.2 and FastLED library. Version 1.3 - Boston, MA - June 2017.
+###### Featured in band Boston's 2017 HyperSpace Tour: 14-channel LED controller for use with FastLED library, WS2812b LEDS, and piezo sensors. Version 1.3 - Boston, MA - June 2017.
 *This project uses hardware which cannot be made publically available. The firmware, though, uses the <a href='https://github.com/FastLED/FastLED'>FastLED</a> library. Regular ol' pizeo sensors can be used to send trigger events to a microcontroller, which should run through full bridge rectifiers to covert the AC signals to a safe, readable DC range for the microcontroller.*
 
 Hardware and firmware designed by <a href='www.drew-andre.com'>Drew André</a>.
@@ -19,8 +19,7 @@ The HyperSpace LED Drum Kit system reads piezo drum sensor events and triggers v
 * [144led/meter WS2812b addressable LED strips](https://www.adafruit.com/products/1506)
 * [8x8 WS2812b panels](https://www.amazon.com/gp/product/B01MCUOD8N/ref=oh_aui_detailpage_o05_s01?ie=UTF8&psc=1)
 * [Daniel Garcia and Mark Kriegsman's FastLED library](http://fastled.io/)
-* [Teensy 3.2](https://www.pjrc.com/store/teensy32.html)
-* Custom designed PCB, Piezo sensors, and 5-pin cable
+* Custom designed PCB based off of Teensy 3.2, Piezo sensors, and 5-pin cable
 * [60A power supply](https://www.amazon.com/gp/product/B014018EWA/ref=oh_aui_detailpage_o06_s00?ie=UTF8&psc=1)
 * [128x32 OLED screen](https://www.adafruit.com/product/2675)
 
