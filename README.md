@@ -15,6 +15,14 @@ The HyperSpace LED Drum Kit system reads piezo drum sensor events and triggers v
 
 ***2,176 leds used in this project running at 172fps***
 
+## Libraries
+* Adafruit_GFX
+* Adafruit_SSD1305_patch (available on my github)
+* EEPROM
+* FastLED
+* SPI
+* Wire
+
 ## Equipment
 * [144led/meter WS2812b addressable LED strips](https://www.adafruit.com/products/1506)
 * [8x8 WS2812b panels](https://www.amazon.com/gp/product/B01MCUOD8N/ref=oh_aui_detailpage_o05_s01?ie=UTF8&psc=1)
